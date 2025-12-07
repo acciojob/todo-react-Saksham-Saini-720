@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/App.css";
 
 const Todo = () => {
-  const [todo, setTodo] = useState(["study", "sleep"]);
+  const [todo, setTodo] = useState([]);
   const [newTodo, setNewTodo] = useState("");
 
   function handleChange(e) {
