@@ -1,1 +1,16 @@
-
+h1{
+    text-align: center;
+}
+.main{
+    text-align: center;
+}
+li{
+    display: inline;
+}
+.list{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: 10px;
+}

@@ -1,11 +1,14 @@
 
 import React from "react";
 import './../styles/App.css';
+import Todo from "./Todo.jsx";
 
 const App = () => {
   return (
-    <div>
+    <div className="outer">
         {/* Do not remove the main div */}
+        <Todo/>
+              
     </div>
   )
 }
